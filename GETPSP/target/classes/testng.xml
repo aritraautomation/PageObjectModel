@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Edgepay Application Test Automation Test Suite"  > 
+
+	<listeners>
+		<listener class-name="com.get.qa.ExtentReportListner.ExtentReporterNG" />
+	</listeners>
+	
+	
+             <test name="Edgepay Application Test">
+                     <classes>
+                          <class name ="com.get.qa.testcases.LoginPageTest"></class>
+                           <class name ="com.get.qa.testcases.HomePageTest"></class>
+                          <class name ="com.get.qa.testcases.TokenManagerPageTest"></class>
+                     </classes>
+             </test>
+</suite>
